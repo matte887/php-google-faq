@@ -9,9 +9,13 @@ ol {
     margin: 1rem 0;
 }
 
-li {
+main li {
     list-style-position: inside;
     margin-bottom: 1rem;
+}
+
+.nested-list {
+    margin-left: 2rem;
 }
 
 /* COMMON */
@@ -44,6 +48,46 @@ a {
     text-decoration: none;
 }
 
-.nested-list {
-    margin-left: 2rem;
+/* HEADER */
+header {
+    width: 100%;
+    border-bottom: 1px solid #5f6368;
+}
+
+header a {
+    color: inherit;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    margin: 0 1rem;
+    padding: 0.5rem 0;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #5f6368;
+}
+
+header ul li.active {
+    color: #2962ff;
+    border-bottom: 3px solid #2962ff;
+}
+
+.header-title {
+    display: inline-block;
+    font-size: 1.3rem;
+    margin: 1rem;
+    color: #5f6368;
+}
+
+.header-title::before {
+    content: url(https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg);
+    display: inline-block;
+    height: 24px;
+    width: 74px; 
+    vertical-align: middle;
+    margin-right: .5rem;
 }

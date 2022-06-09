@@ -86,16 +86,32 @@ $faq = [
 </head>
 
 <body>
-    <div class="container">
-        <?php
-                foreach ($faq as $this_faq) { ?>
-            <div>
-                <h3><?php echo $this_faq["question"] ?></h3>
-                <p><?php echo $this_faq["answer"] ?></p>
-            </div>
-        <?php } ?>
+    <header>
+        <div class="header">
+            <span class="header-title">Privacy e termini</span>
         </div>
-    </div>
+        <div class="header-menu">
+            <ul>
+                <li><a href="">Introduzione</a></li>
+                <li><a href="">Norme sulla privacy</a></li>
+                <li><a href="">Termini di servizio</a></li>
+                <li><a href="">Tecnologie</a></li>
+                <li class="active">Domande frequenti</li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <?php
+            foreach ($faq as $this_faq) { ?>
+                <div>
+                    <h3><?php echo $this_faq["question"] ?></h3>
+                    <p><?php echo $this_faq["answer"] ?></p>
+                </div>
+            <?php } ?>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
