@@ -38,15 +38,15 @@ $faq = [
         "question" => "<h2>Perché il mio account è associato a un paese?</h2>",
         "answer" => 
             "<div>
-                <p>Il tuo account è associato a un paese (o territorio) nei Termini di servizio per                 stabilire due cose:</p>
+                <p>Il tuo account è associato a un paese (o territorio) nei Termini di servizio per stabilire due cose:</p>
                 <ol>
-                    <li>La società consociata Google che offre i servizi, tratta le tue informazioni ed                 responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre              propri servizi per i consumatori tramite una delle due società seguenti:
+                    <li>La società consociata Google che offre i servizi, tratta le tue informazioni ed responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre propri servizi per i consumatori tramite una delle due società seguenti:
                         <ol type='a' class='nested-list'>
-                            <li>Google Ireland Limited, se gli utenti sono residenti nello Spazio           europeo     (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o        Svizzera.   </li>
+                            <li>Google Ireland Limited, se gli utenti sono residenti nello Spazio           europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o Svizzera.</li>
                             <li>Google LLC, con sede negli Stati Uniti, per il resto del mondo.</li>
                         </ol>
-                    <li>La versione dei termini che regola il nostro rapporto, che può variare in base              leggi locali.</li>
-                    <p>Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere               società consociata che li offre o dal paese a cui è associato il tuo account.</p>
+                    <li>La versione dei termini che regola il nostro rapporto, che può variare in base leggi locali.</li>
+                    <p>Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere società consociata che li offre o dal paese a cui è associato il tuo account.</p>
                 </ol>
             </div>"
     ],
@@ -94,20 +94,6 @@ $faq = [
                 <p><?php echo $this_faq["answer"] ?></p>
             </div>
         <?php } ?>
-        <!-- <div>
-            <h2>Perché il mio account è associato a un paese?</h2>
-            <div>
-                <p>Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:</p>
-                <ol>
-                    <li>La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:
-                        <ol type="a" class="nested-list">
-                            <li>Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.</li>
-                            <li>Google LLC, con sede negli Stati Uniti, per il resto del mondo.</li>
-                        </ol>
-                    <li>La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.</li>
-                    <p>Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account.</p>
-                </ol>
-            </div> -->
         </div>
     </div>
 </body>
